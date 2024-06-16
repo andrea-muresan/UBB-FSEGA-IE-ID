@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int sumaCifrelor(int n) {
+    int sum = 0;
+    while(n) {
+        sum += n%10;
+        n /= 10;
+    }
+    
+    return sum;
+}
+
+int main() {
+    int a, b, p;
+    printf("a=");
+    scanf("%d", &a);
+    printf("b=");
+    scanf("%d", &b);
+    printf("p=");
+    scanf("%d", &p);
+    
+    int count = 0;
+    for (int i = a; i <= b; i++) {
+        if (sumaCifrelor(i) % p == 0)
+            count ++;
+    }
+    
+    printf("\nRezultat = %d", count);
+
+    return 0;
+}
