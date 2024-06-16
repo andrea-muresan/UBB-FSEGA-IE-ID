@@ -1,0 +1,7 @@
+1. Se citeste de la tastatura o propozitie intr-un sir de caractere pana la intalnirea caracterului sfarsit de rand.
+Sa se numere si sa se afiseze cate litere mici respectiv cate litere mari contine aceasta propozitie.
+
+2. Fie n numar par si a un vector de n numere naturale. 
+Sa se realizeze interschimbarea primei cu a 2-a valoare din vector, a 3-a cu a-4 a samd si sa se afiseze vectorul schimbat.
+
+3. Se dau doua numere a si b, a mai mic decat b. sa se determine suma patratelor perfecte din intervalul [a, b].
